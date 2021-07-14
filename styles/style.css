@@ -7,13 +7,43 @@ main{
     align-items: center;
     flex-direction: column;
 }
+/*--------- Log in
+--------------------------------- */
+.login{
+    display: flex;
+    
+    background-color: rgb(109, 22, 190);
+}
+.title{
+    display: grid;
+    
+}
+.watch-live{
+    margin-left: 156px;
+}
 
+h1{
+    width: 485px;
+    height: 230px;
+    color: white;
+   margin: 207px 102px 0 156px;
+    font-weight: bold;
+font-size: 64px;
+font-family: 'Poppins';
+
+}
+.banner img{
+    width: 556.01px;
+height: 438px;
+margin-top: 153px;
+margin-right: 140px;
+}
 
 /*--------- Players Informations
 --------------------------------- */
 .container{
-    margin-right:  210px;
-    margin-left: 180px;
+    
+    margin: 70px 210px 0 180px;
 }
 .players{
     display: grid;
@@ -86,7 +116,7 @@ font-size: 16px;
 
 }
 
-.watch-copa{
+.watch-copa, .watch-live{
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -95,7 +125,7 @@ font-size: 16px;
 height: 44px;
     
 }
-.watch-copa h3{
+.watch-copa, .watch-live h3{
     font-weight: 500;
 font-size: 16px;
 font-family: 'Poppins';
