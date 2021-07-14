@@ -1,0 +1,118 @@
+/*-------Fonts-------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+/* common styles or utilities */
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/*--------- Players Informations
+--------------------------------- */
+.container{
+    margin-right:  210px;
+    margin-left: 180px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+.player{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    width: 330px;
+height: 474px;
+
+}
+.player-pic img{
+    width: 300px;
+height: 256px;
+margin-bottom: 16px;
+
+}
+
+
+.player-name{
+    font-family: 'Poppins';
+    width: 300px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.player-detail{
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #6C6C6C;
+    Height : 104px;
+    width: 300px;
+
+}
+/*--------- COPA Highlights
+--------------------------------- */
+.about-copa{
+    display: flex;
+    flex-direction: row;
+    
+}
+.copa-info{
+    margin-right: 66px;
+    padding-top: 224px;
+}
+.copa-highlights{
+    width: 469px;
+height: 120px;
+font-family: 'Poppins';
+font-weight: bold;
+font-size: 48px;
+
+}
+
+.copa-detail{
+    width: 404px;
+height: 113px;
+font-family: 'Poppins';
+font-size: 16px;
+color: #6C6C6C;
+}
+
+.copa-info h3{
+    font-family: 'Poppins';
+    font-weight: 500;
+font-size: 16px;
+
+}
+
+.watch-copa{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #E02C6D;
+    width: 172px;
+height: 44px;
+    
+}
+.watch-copa h3{
+    font-weight: 500;
+font-size: 16px;
+font-family: 'Poppins';
+width: 92px;
+height: 24px;
+color: #FFFFFF;
+margin: 10px 8px 10px 24px;
+
+}
+.watch-icon{
+    width: 16px;
+    height: 14px;
+    color:  #FFFFFF;
+    ;
+}
+.copa-banner img{
+    width: 567px;
+height: 427px;
+padding-top: 165px;
+}
