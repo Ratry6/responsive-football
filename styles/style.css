@@ -26,7 +26,7 @@ h1{
     width: 485px;
     height: 230px;
     color: white;
-   margin: 207px 102px 0 156px;
+   margin: 207px 102px 30px 156px;
     font-weight: bold;
 font-size: 64px;
 font-family: 'Poppins';
@@ -146,12 +146,13 @@ margin: 10px 8px 10px 24px;
 
 
 
+
 }
 .watch-icon{
     width: 16px;
     height: 14px;
     color:  #FFFFFF;
-    ;
+    
 }
 .copa-banner img{
     width: 567px;
