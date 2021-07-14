@@ -31,12 +31,20 @@ h1{
 font-size: 64px;
 font-family: 'Poppins';
 
+
 }
 .banner img{
     width: 556.01px;
 height: 438px;
 margin-top: 153px;
 margin-right: 140px;
+
+}
+.banner:hover {
+    transform: rotate(30deg);
+            
+            transition: transform 0.1s linear 1s;
+    
 }
 
 /*--------- Players Informations
@@ -123,6 +131,8 @@ font-size: 16px;
     background: #E02C6D;
     width: 172px;
 height: 44px;
+padding: 10px 24px;
+
     
 }
 .watch-copa, .watch-live h3{
@@ -133,6 +143,8 @@ width: 92px;
 height: 24px;
 color: #FFFFFF;
 margin: 10px 8px 10px 24px;
+
+
 
 }
 .watch-icon{
@@ -166,6 +178,14 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400px;
 margin-top: 20px;
+
+}
+/* --------Media Queries
+------------------------- */
+
+/*--------- Mobile Devices
+---------------------------- */
+@media only screen and{
 
 }
 
